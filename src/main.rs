@@ -66,14 +66,14 @@ fn App() -> impl IntoView {
     };
 
     view! {
-        <div>
+        <div class="layout">
             <h1>무작위 질문 생성기</h1>
-            <p>{question}</p>
-            <button
-                on:click=next_question
-            >
-                다음 질문
-            </button>
+            <div class="layout_inner">
+                <p>{question}</p>
+                <button on:click=next_question>
+                    다음 질문
+                </button>
+            </div>
         </div>
     }
 }
