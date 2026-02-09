@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head><link rel="modulepreload" href="/random-question-7a8252d5d601ba91.js" crossorigin="anonymous" integrity="sha384-gta9H0rTfzwUoI/BBY40YffmkjxWEb2rN5cGOHRGjqy7BgnPVvlFASP5O70L6Poq"><link rel="preload" href="/random-question-7a8252d5d601ba91_bg.wasm" crossorigin="anonymous" integrity="sha384-G5BrDVd6pY4nPXtIsG+qYJIIMu7pJemcdPJ8fV79j4wUU6832k8uuoepJUNlbEvb" as="fetch" type="application/wasm"></head>
+  <body>
+<script type="module">
+import init, * as bindings from '/random-question-7a8252d5d601ba91.js';
+const wasm = await init({ module_or_path: '/random-question-7a8252d5d601ba91_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script></body>
+</html>

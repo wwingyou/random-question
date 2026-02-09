@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Trunk Serve",
+      "type": "shell",
+      "command": "trunk",
+      "args": [ "serve", "--open" ]
+    },
+    {
+      "label": "Trunk Build",
+      "type": "shell",
+      "command": "trunk",
+      "args": [ "build", "--release" ]
+    },
+  ]
+}
