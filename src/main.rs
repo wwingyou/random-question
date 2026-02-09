@@ -1,5 +1,5 @@
 use leptos::prelude::*;
-use rand::{RngExt, seq::SliceRandom};
+use rand::seq::SliceRandom;
 
 const QUESTIONS: [&str; 50] = [
     "평생 한 가지만 먹어야 한다면 뭐 먹을래요?",
